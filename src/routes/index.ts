@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { userProfileRoutes } from "./user-Profile-Routes";
-import { userProfileRepositoriesRoutes } from "./user-Profile-Repositories";
+import { userProfileRepositoriesRoutes } from "./user-Profile-Repositories-Routes";
 
 const router = Router();
 
