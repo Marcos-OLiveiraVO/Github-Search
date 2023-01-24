@@ -5,8 +5,8 @@ import { listUsersRouter } from "./list-Users-routes";
 
 const router = Router();
 
-router.use("/users", userProfileRoutes);
-router.use("/users", userProfileRepositoriesRoutes);
-router.use("/users", listUsersRouter);
+router.use("/api/users", userProfileRoutes);
+router.use("/api/users", userProfileRepositoriesRoutes);
+router.use("/api/users", listUsersRouter);
 
 export { router };

@@ -4,6 +4,9 @@ import { ListUserProfileController } from "../modules/users/List-User-Profile-Co
 const userProfileRoutes = Router();
 const userProfileDetailsController = new ListUserProfileController();
 
-userProfileRoutes.get("/:user/details", userProfileDetailsController.handle);
+userProfileRoutes.get(
+  "/:username/details",
+  userProfileDetailsController.handle
+);
 
 export { userProfileRoutes };

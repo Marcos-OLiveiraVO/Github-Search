@@ -5,7 +5,7 @@ const userProfileRepositoriesRoutes = Router();
 const listUserProfileController = new ListUserProfileController();
 
 userProfileRepositoriesRoutes.get(
-  "/:user/repos",
+  "/:username/repos",
   listUserProfileController.handle
 );
 

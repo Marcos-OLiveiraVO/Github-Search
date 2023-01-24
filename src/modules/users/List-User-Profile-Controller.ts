@@ -5,9 +5,9 @@ import { AppError } from "../../errors/AppError";
 class ListUserProfileController {
   async handle(req: Request, res: Response): Promise<Response> {
     try {
-      const user = req.params.user;
+      const username = req.params.username;
       const { data } = await axios.get(
-        `https://api.github.com/users/${user}/repos`
+        `https://api.github.com/users/${username}/repos`
       );
       return res.json({ users: data });
     } catch (err) {
