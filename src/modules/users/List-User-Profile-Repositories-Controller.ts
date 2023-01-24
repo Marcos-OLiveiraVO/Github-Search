@@ -2,7 +2,7 @@ import axios from "axios";
 import { Request, Response } from "express";
 
 class ListUserProfileRepositoriesController {
-  async handle(req: Request, res: Response) {
+  async handle(req: Request, res: Response): Promise<Response> {
     try {
       const user = req.params.user;
       const { data } = await axios.get(
