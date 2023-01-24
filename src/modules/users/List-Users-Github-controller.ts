@@ -1,5 +1,6 @@
 import axios from "axios";
 import { Request, Response } from "express";
+import { AppError } from "../../errors/AppError";
 
 class ListUsersGithubController {
   async handle(req: Request, res: Response): Promise<Response> {
@@ -11,7 +12,7 @@ class ListUsersGithubController {
       const linkNextPage = headers.link;
       return res.json({ users: data, linkNextPage });
     } catch (err) {
-      return res.status(404).send({ err: err.message });
+      throw new AppError("Internal Server Error", 500);
     }
   }
 }

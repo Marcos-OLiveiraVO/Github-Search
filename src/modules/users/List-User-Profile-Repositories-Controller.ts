@@ -1,5 +1,6 @@
 import axios from "axios";
 import { Request, Response } from "express";
+import { AppError } from "../../errors/AppError";
 
 class ListUserProfileRepositoriesController {
   async handle(req: Request, res: Response): Promise<Response> {
@@ -10,7 +11,7 @@ class ListUserProfileRepositoriesController {
       );
       return res.json({ user: data });
     } catch (err) {
-      return res.status(404).json({ err: err.message });
+      throw new AppError("User or Repository not exists!", 404);
     }
   }
 }
