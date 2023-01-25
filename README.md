@@ -22,19 +22,23 @@ Or
 $ npm install 
 ```
 
-## ✔  Run the App
+## ✔  Running the App
+Will run the app locallly on port : 3000
 
     $ yarn dev
 
 ## 🏗️  Run the Build
+will transpile the code typescript to javascript.
 
     $ yarn build
     
-## 🧪 Run Tests
+## 🧪 Running the Tests
+will execute the tests for the end-Points using jest.
 
     $ yarn jest
    
 ## 🏴󠁵󠁭󠀹󠀵󠁿 Routes
+All routes end-Points for consuming the api.
 
     GET - /api/users?since={number} => return a list of GitHub users and the link for the next page.
     
