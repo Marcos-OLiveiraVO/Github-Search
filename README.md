@@ -53,6 +53,7 @@ All routes end-Points for consuming the api.
 Or 
 
 You can Use the website API URL to make the request
+https://github-api-proxy-xnm7.onrender.com/api/users/
 
 Here is an Example: 
 
