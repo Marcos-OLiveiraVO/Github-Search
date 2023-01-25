@@ -20,21 +20,21 @@ Or
 $ npm install 
 ```
 
-## Run the App
+## ✔ Run the App
 
 
     $ yarn dev
 
 
-## Run the Build
+## 🏗️ Run the Build
 
     $ yarn build
     
-## Run Tests
+## 🧪Run Tests
 
     $ yarn jest
    
-## Routes
+## 🏴󠁵󠁭󠀹󠀵󠁿 Routes
 
     GET - /api/users?since={number} => return a list of GitHub users and the link for the next page.
     
