@@ -22,17 +22,15 @@ Or
 $ npm install 
 ```
 
-## ✔ Run the App
-
+## ✔  Run the App
 
     $ yarn dev
 
-
-## 🏗️ Run the Build
+## 🏗️  Run the Build
 
     $ yarn build
     
-## 🧪Run Tests
+## 🧪 Run Tests
 
     $ yarn jest
    
@@ -44,9 +42,7 @@ $ npm install
     
     GET - /api/users/:username/repos => return a list with all user repositories
     
-
 <h4> 🛠 Project was made using the following technologies and concepts: <h4>
-
 
     - Node.
     - Express
