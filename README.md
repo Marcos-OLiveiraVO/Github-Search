@@ -45,6 +45,11 @@ All routes end-Points for consuming the api.
     GET - /api/users/:username/details  => return the details of a GitHub user.
     
     GET - /api/users/:username/repos => return a list with all user repositories
+ 
+ You can use the insomnia app to do the request for end-points API.
+ 
+![unknown_2023 01 25-00 48](https://user-images.githubusercontent.com/88260644/214475807-3d6918ea-21c0-462d-95e3-5e69a88fc3c3.gif)
+
     
 <h4> 🛠 Project was made using the following technologies and concepts: <h4>
 
