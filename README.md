@@ -27,7 +27,7 @@ Will run the app locallly on port : 3000
 
     $ yarn dev
 
-## 🏗️  Run the Build
+## 🏗️  Running the Build
 will transpile the code typescript to javascript.
 
     $ yarn build
