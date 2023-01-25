@@ -25,6 +25,15 @@ $ npm install
 
     $ yarn dev
 
+
+## Run the Build
+
+    $ yarn build
+    
+## Run Tests
+
+    $ yarn jest
+   
 ## Routes
 
     GET - /api/users?since={number} => return a list of GitHub users and the link for the next page.
