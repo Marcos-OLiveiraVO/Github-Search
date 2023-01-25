@@ -2,7 +2,7 @@ import axios from "axios";
 import { Request, Response } from "express";
 import { AppError } from "../../errors/AppError";
 
-class ListUsersGithubController {
+class ListUsersFromGithubController {
   async handle(req: Request, res: Response): Promise<Response> {
     try {
       const since = req.query.since;
@@ -17,4 +17,4 @@ class ListUsersGithubController {
   }
 }
 
-export { ListUsersGithubController };
+export { ListUsersFromGithubController };

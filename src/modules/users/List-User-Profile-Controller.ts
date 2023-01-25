@@ -7,9 +7,9 @@ class ListUserProfileController {
     try {
       const username = req.params.username;
       const { data } = await axios.get(
-        `https://api.github.com/users/${username}/repos`
+        `https://api.github.com/users/${username}`
       );
-      return res.json({ users: data });
+      return res.json({ user: data });
     } catch (err) {
       throw new AppError("User not exists!", 404);
     }

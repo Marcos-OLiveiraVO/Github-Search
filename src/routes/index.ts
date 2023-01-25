@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { userProfileRoutes } from "./user-Profile-Routes";
-import { userProfileRepositoriesRoutes } from "./user-Profile-Repositories-Routes";
-import { listUsersRouter } from "./list-Users-routes";
+import { userProfileRoutes } from "./List-User-Profile-Routes";
+import { userProfileRepositoriesRoutes } from "./list-User-Profile-Repositories-Routes";
+import { listUsersRouter } from "./list-Users-From-Github-routes";
 
 const router = Router();
 

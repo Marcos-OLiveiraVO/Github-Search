@@ -1,17 +1,17 @@
 import axios from "axios";
-import { Request, Response } from "express";
+import { Request, Response, NextFunction } from "express";
 import { AppError } from "../../errors/AppError";
 
 class ListUserProfileRepositoriesController {
-  async handle(req: Request, res: Response): Promise<Response> {
+  async handle(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
       const username = req.params.username;
       const { data } = await axios.get(
         `https://api.github.com/users/${username}/repos`
       );
-      return res.json({ user: data });
+      res.json({ user: data });
     } catch (err) {
-      throw new AppError("User or Repository not exists!", 404);
+      next(new AppError("User or Repository not exists!", 404));
     }
   }
 }
