@@ -2,6 +2,8 @@
 
 The API will Search all client requests to the appropriate GitHub endpoint.
 
+and will return determinates infors about the users, user details and user repositories.
+
 ## :rocket:Installation
 To run the repositorie it's necessary clone the same.
 
