@@ -1,20 +1,20 @@
 # Github-API-Proxy
 
-
+The API will Search all client requests to the appropriate GitHub endpoint.
 
 ## :rocket:Installation
-to run the repositorie it's necessary clone the same.
+To run the repositorie it's necessary clone the same.
 
 ```bash
 $ git clone https://github.com/Marcos-OLiveiraVO/Github-API-Proxy.git
 ```
 
-and use the following command to install the dependencies:
+And use the following command to install the dependencies:
 
 ```bash
 $ yarn 
 ```
-or
+Or
 
 ```bash
 $ npm install 
