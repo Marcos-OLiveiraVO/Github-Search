@@ -3,14 +3,21 @@
 
 
 ## :rocket:Installation
-to run the repositorie it's necessary clone the same, and use the following command to install the dependencies:
+to run the repositorie it's necessary clone the same.
+
+```bash
+$ git clone https://github.com/Marcos-OLiveiraVO/Github-API-Proxy.git
+```
+
+and use the following command to install the dependencies:
+
 ```bash
 $ yarn 
 ```
-
+or
 
 ```bash
-$ yarn 
+$ npm install 
 ```
 
 ## Run the App
