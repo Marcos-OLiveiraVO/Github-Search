@@ -4,6 +4,10 @@
 
 ## :rocket:Installation
 to run the repositorie it's necessary clone the same, and use the following command to install the dependencies:
+```bash
+$ yarn 
+```
+
 
 ```bash
 $ yarn 
