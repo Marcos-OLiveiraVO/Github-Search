@@ -66,7 +66,7 @@ if you will test the api in the url I Recommend you use the extension called: JS
 <h4> 🛠 Project was made using the following technologies and concepts: <h4>
 
     - Node.
-    - Express
+    - Express.
     - Typescript.
     - jest.
     - axios.
